@@ -2,10 +2,12 @@ package main
 
 import (
 	"encoding/json"
+	"os"
+
 	"github.com/alexflint/go-arg"
 	"github.com/sirupsen/logrus"
-	"os"
-	sparql "sparql-client"
+
+	"github.com/denysvitali/sparql-client"
 )
 
 var args struct {
