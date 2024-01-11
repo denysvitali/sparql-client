@@ -1,12 +1,14 @@
 package sparql_test
 
 import (
-	"github.com/h2non/gock"
 	"io"
 	"net/http"
 	"os"
-	sparql "sparql-client"
 	"testing"
+
+	"github.com/h2non/gock"
+
+	"github.com/denysvitali/sparql-client"
 )
 
 func TestClientQuery(t *testing.T) {
